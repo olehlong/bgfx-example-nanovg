@@ -1,11 +1,4 @@
 module blendish;
-
-private {
-    import bgfx_extras.nanovg;
-    import std.math;
- }
-
-
 /*
 Blendish - Blender 2.5 UI based theming functions for NanoVG
 
@@ -71,6 +64,11 @@ To use this header file in implementation mode, define BLENDISH_IMPLEMENTATION
 before including blendish.h, otherwise the file will be in header-only mode.
 
 */
+
+private {
+    import bgfx_extras.nanovg;
+    import std.math;
+ }
 
 // describes the theme used to draw a single widget or widget box;
 // these values correspond to the same values that can be retrieved from
