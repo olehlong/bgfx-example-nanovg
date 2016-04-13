@@ -2,6 +2,7 @@ name "bgfx-example-nanovg"
 description "bgfx and NanoVG example written in the D Programming Language."
 copyright "Copyright © 2016, Oleh Havrys"
 authors "Oleh Havrys (olehlong)"
+license "MIT"
 
 lflags "-R."
 
