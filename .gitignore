@@ -6,5 +6,5 @@ __dummy.html
 bgfx-example-nanovg
 libbgfx.so
 libbgfx-extras.so
-libSDL2-2.0.so
+libSDL2.so
 dub.selections.json
