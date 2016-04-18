@@ -1173,7 +1173,7 @@ class ExampleNanoVG {
     
     void init(bgfx.RendererType.Enum m_type = bgfx.RendererType.Enum.Count, ushort m_pciId = BGFX_PCI_ID_NONE) {
         try { 
-            DerelictSDL2.load(SharedLibVersion(2, 0, 2)); 
+            DerelictSDL2.load(); 
         } catch(Exception e) { 
             throw new Exception("Error loading SDL2 lib. "~e.msg); 
         }
@@ -1319,6 +1319,7 @@ class ExampleNanoVG {
 
 void main() {
 	auto example = new ExampleNanoVG();
+	scope(exit) example.shutdown();
     example.init();
     example.start();
 }

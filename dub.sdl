@@ -12,4 +12,4 @@ libs "d3d9" platform="windows"
 dependency "derelict-sdl2" version="~>2.0.0"
 
 dependency "bgfx-d" version="~>0.13.2"
-dependency "bgfx-extras-d" version="~>0.1.0"
+dependency "bgfx-extras-d" version="~>0.1.1"
